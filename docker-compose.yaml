@@ -4,7 +4,7 @@ services:
     image: mealware/simple
     build: .
     ports:
-      - '8001:80'
+      - '8001:3000'
     volumes:
       - "vol-simple:/app/public/images"
 
