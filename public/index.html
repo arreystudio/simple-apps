@@ -1,14 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Training DevOps</title>
-    <link rel="stylesheet" href="stylesheet/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Ardya Reyhan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <img class="logo" src="./images/idn-logo.png" alt="idn-logo">
-     <h1>Belajar Devops</h1>
+<body class="bg-gray-100 font-sans">
+  <!-- Header -->
+  <header class="bg-blue-600 text-white py-5">
+    <div class="container mx-auto flex justify-between items-center px-5">
+      <h1 class="text-3xl font-bold">Ardya Reyhan</h1>
+      <nav>
+        <ul class="flex space-x-5">
+          <li><a href="#about" class="hover:underline">About</a></li>
+          <li><a href="#skills" class="hover:underline">Skills</a></li>
+          <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gray-200 py-20 text-center">
+    <h2 class="text-4xl font-bold text-gray-800 mb-5">Hi, I'm Ardya Reyhan</h2>
+    <p class="text-gray-600 text-lg mb-5">A passionate programmer, innovator, and lifelong learner.</p>
+    <a href="#contact" class="bg-blue-600 text-white py-2 px-5 rounded hover:bg-blue-700">Get in Touch</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="container mx-auto px-5 text-center">
+      <h3 class="text-3xl font-bold text-gray-800 mb-5">About Me</h3>
+      <p class="text-gray-600 text-lg leading-relaxed">
+        I'm a software developer with a strong passion for technology and innovation. I work at Badan Pusat Statistik Indonesia, contributing to meaningful projects that impact data-driven decisions. With expertise in web development, backend systems, and modern frameworks, I enjoy crafting elegant solutions to complex problems.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 bg-gray-100">
+    <div class="container mx-auto px-5">
+      <h3 class="text-3xl font-bold text-center text-gray-800 mb-10">My Skills</h3>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5">
+        <div class="bg-white shadow p-5 text-center">
+          <h4 class="text-xl font-semibold text-blue-600">JavaScript</h4>
+        </div>
+        <div class="bg-white shadow p-5 text-center">
+          <h4 class="text-xl font-semibold text-blue-600">Laravel</h4>
+        </div>
+        <div class="bg-white shadow p-5 text-center">
+          <h4 class="text-xl font-semibold text-blue-600">PHP</h4>
+        </div>
+        <div class="bg-white shadow p-5 text-center">
+          <h4 class="text-xl font-semibold text-blue-600">Tailwind CSS</h4>
+        </div>
+        <div class="bg-white shadow p-5 text-center">
+          <h4 class="text-xl font-semibold text-blue-600">API Development</h4>
+        </div>
+        <div class="bg-white shadow p-5 text-center">
+          <h4 class="text-xl font-semibold text-blue-600">Data Modeling</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="container mx-auto px-5 text-center">
+      <h3 class="text-3xl font-bold text-gray-800 mb-5">Contact Me</h3>
+      <p class="text-gray-600 text-lg mb-5">Feel free to reach out for collaborations, project inquiries, or just to say hi!</p>
+      <a href="mailto:ardya.reyhan@example.com" class="bg-blue-600 text-white py-2 px-5 rounded hover:bg-blue-700">Email Me</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white py-5">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 Ardya Reyhan. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
